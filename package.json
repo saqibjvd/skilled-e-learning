@@ -9,6 +9,7 @@
     "dev": "NODE_OPTIONS='--enable-source-maps=true' next dev"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "next": "14.2.3",
     "next-auth": "^4.24.7",
     "react": "^18",

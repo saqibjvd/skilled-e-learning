@@ -1,18 +1,27 @@
+"use client";
+
 
 
 export default function Home() {
   return (
     <div>
-      <h1>Skilled e-Learning</h1>
-      <h2>Skilled e-learning landing page</h2>
-      <p>
-        Your challenge is to build out this landing page and get it looking as
-        close to the design as possible. You can use any tools you like to help
-        you complete the challenge. <br></br>
-        So if you've got something you'd like to practice, feel free to give it
-        a go. Your users should be able to: View the optimal layout depending on
-        their device's screen size See hover states for interactive elements
-      </p>
+      <h1 className="m-4 text-4xl text-gray-900 md:text-5xl lg:text-6xl dark:text-black text-center">
+        Skilled e-Learning
+      </h1>
+      <h2 className="mt-4 text-l text-center ">
+        Skilled e-learning{" "}
+        <span className="text-blue-600 dark:text-blue-500">
+          The World best platform to learn
+        </span>
+      </h2>
+
+      <div>
+        <p className="m-4 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 text-center">
+          Here at Flowbite we focus on markets where technology, innovation, and
+          capital can unlock long-term value and drive economic growth.
+        </p>
+      
+      </div>
     </div>
   );
 }
