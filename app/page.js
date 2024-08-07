@@ -1,8 +1,8 @@
 "use client";
 
-
-
 export default function Home() {
+
+
   return (
     <div>
       <h1 className="m-4 text-4xl text-gray-900 md:text-5xl lg:text-6xl dark:text-black text-center">
@@ -20,6 +20,9 @@ export default function Home() {
           Here at Flowbite we focus on markets where technology, innovation, and
           capital can unlock long-term value and drive economic growth.
         </p>
+        <div>
+        
+        </div>
       
       </div>
     </div>

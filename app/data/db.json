@@ -1,0 +1,44 @@
+ [
+    {
+      "id": 1,
+      "title": "How I learned to code",
+      "url": "https://www.youtube.com/watch?v=WR1ydijTx5E",
+      "rating": 0
+    },
+    {
+      "id": 2,
+      "title": "The Coding Train",
+      "url": "https://www.youtube.com/watch?v=HerCR8bw_GE",
+      "rating": 0
+    },
+    {
+      "id": 3,
+      "title": "How to start Coding",
+      "url": "https://www.youtube.com/watch?v=HIj8wU_rGIU",
+      "rating": 0
+    },
+    {
+      "id": 4,
+      "title": "Learn Unity - Beginner's Game Development Course",
+      "url": "https://www.youtube.com/watch?v=gB1F9G0JXOo",
+      "rating": 0
+    },
+    {
+      "id": 5,
+      "title": "Cracking Enigma in 2021 - Computerphile",
+      "url": "https://www.youtube.com/watch?v=RzWB5jL5RX0",
+      "rating": 0
+    },
+    {
+      "id": 6,
+      "title": "Coding Adventure: Chess AI",
+      "url": "https://www.youtube.com/watch?v=U4ogK0MIzqk",
+      "rating": 0
+    },
+    {
+      "id": 7,
+      "title": "Coding Adventure: Ant and Slime Simulations",
+      "url": "https://www.youtube.com/watch?v=X-iSQQgOd1A",
+      "rating": 0
+    }
+  ]
