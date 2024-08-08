@@ -1,19 +1,25 @@
 //..........BACKEND............
 
-const database = require("../database");
+// CRUD.......
+// export default function GET(req, res) {
+//   console.log("GET REQUEST")
+//   res.status(200).json({ message: 'Hello from Next.js!' })
+// }
+
+//const database = require("../database");
 
 // Display all videos list on page
-export async function GET() {
-  return Response.json(await database);
-}
+// export async function GET() {
+//   return Response.json(await database);
+// }
 
 // Create new todotask
-export async function POST(req, res) {
-  const data = await req.json();
+// export async function POST(req, res) {
+//   const data = await req.json();
 
-  await database.addNewTask(data.newVideo);
-  return Response.json(await database.getAllVides());
-}
+//   await database.addNewTask(data.newVideo);
+//   return Response.json(await database.getAllVides());
+// }
 
 // Delete tasks
 // export async function DELETE(req) {
