@@ -5,7 +5,20 @@ import Link from "next/link";
 
 export default function Login() {
 
+  const [email, setEmail] = useState("")
+  const [password, setPasswrd] = useState("")
+
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//     if (email && password) {
   
+//       let user = {
+//         email: email,   
+//         password: password,
+//       };
+//       setEmail("")
+//       setPasswrd("")
+//     }
 
     return (
         <div className="flex min-h-screen flex-col item-center justify-between p-24">
@@ -16,12 +29,14 @@ export default function Login() {
             <input type="text"
             className="w-full border border-gray-300 text-black rounded px-3 py-2 mb-4 focus: outline-none focus: border-blue-400 focus: text-black"
             placeholder="email"
+            value={email}
             onChange={(e) => setEmail(e.target.value)}
             required />
 
              <input type="paswword"
             className="w-full border border-gray-300 text-black rounded px-3 py-2 mb-4 focus: outline-none focus: border-blue-400 focus: text-black"
             placeholder="password"
+            value={password}
             onChange={(e) => setPasswrd(e.target.value)}
             required />
             <button type="submit" 

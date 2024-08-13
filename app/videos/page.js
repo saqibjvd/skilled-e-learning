@@ -1,6 +1,6 @@
 "use client";
 import React, {useState} from "react";
-import data from "../data/db.json"
+import data from "../data/videodb.json"
 import VideoCard from "../videocard/page";
 
 
@@ -15,8 +15,7 @@ export default function Videos() {
     )
     };
     
-   
- 
+  
     return (
       <div> 
         <div className="font-sans">
